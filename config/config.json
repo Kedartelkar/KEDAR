@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "kedar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/kedar/KedarWebPart.js",
+          "manifest": "./src/webparts/kedar/KedarWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KedarWebPartStrings": "lib/webparts/kedar/loc/{locale}.js"
+  }
+}
